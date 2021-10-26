@@ -1,9 +1,24 @@
 ## WebDev stream series
 
+### VSCode setup
+
+**Extensions**
+
+**HTML && CSS**
+
+- Auto close tag
+- Auto rename tag
+- HTML boilerplate
+- HTML Snippets
+- Path intellisense
+- Prettier - code formatter
+- vscode icons
+- liveserver
+
 **Level 1**
 
 - Vscode extensions & setup
-- HTML5
+- HTML5 | Hypertext markup language
 - CSS3
 - Debug and changes in the browser
 - Sass
@@ -13,6 +28,7 @@
   - Gitflow
   - Best practices
   - Teamwork
+- SEO
 
 **Level 2**
 
