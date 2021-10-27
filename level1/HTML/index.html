@@ -17,19 +17,125 @@
   </head>
   <body>
     <header>ladhakjdhas</header>
-    <h1>Esto es un h1</h1>
+    <nav>
+      <!--Redirección a elemento HTML por su id -->
+      <a href="#inicio">Inicio</a>
+      <a href="">Acerca de</a>
+      <a href="">Contacto</a>
+    </nav>
+
+    <!--Texto-->
+    <h1>Esto es <small>un h1</small></h1>
+    <h1>
+      <small>Why you</small> <br />
+      Should Care
+    </h1>
+    <hr />
     <h2>Esto es un h2</h2>
     <h3>Esto es un h3</h3>
-    <input />
-    <!--Esto es la sección principal de la web... ¡No la toques que funciona! -->
-    <section>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-      inventore at, magnam dolores aliquam rerum officia numquam maiores
-      blanditiis impedit fuga eum atque voluptas modi, harum totam praesentium
-      repudiandae error.
+    <!--Section con id "inicio" referenciado en el nav -->
+    <section id="inicio">
+      <p>
+        Lorem &nbsp; &lt; &gt; &amp; &euro; &pound; ipsum dolor <br />
+        sit amet consectetur adipisicing elit. Obcaecati inventore at, magnam
+        <b>dolores</b> aliquam <strong>rerum</strong> officia <i>numquam</i>
+        <mark>maiores blanditiis</mark> impedit <sub> eum</sub>
+        <sup>atque</sup> voluptas <del> modi</del>, harum totam
+        <small>praesentium</small> repudiandae error.
+        <code> Code tag </code>
+      </p>
+      <!--Texto preformateado-->
+      <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repudiandae quas sapiente illo 
+        optio, labore corporis doloribus praesentium quasi maxime ex suscipit, consequatur nisi dolores vel
+        dolore sed, iste molestias!
+      </pre>
+      <p>
+        <!--Abreviaturas-->
+        <abbr title="World Wide Web">WWW</abbr>
+        <!--Direcciones-->
+        <address>
+          Galicia, España <br/>
+          CP 11111
+        </address>
+        <!--Citas-->
+        <blockquote>
+          <p>¡Que tengan muy buen código!</p>
+          <!--Autor de la cita-->
+          <cite>Programación en Español</cite>
+        </blockquote>
+      </p>
+      <details><summary>Ver más</summary><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae voluptas ut consequuntur suscipit obcaecati. Repellat magnam magni suscipit. Aut, placeat qui. Vitae obcaecati, odio non suscipit quis nesciunt iusto nobis.</p></details>
+      <button>
+        <!--Apertura de enlace en nueva tab del navegador -->
+        <a href="http://google.com" target="_blank">Ir a Google</a>
+      </button>
+      <button>Cancelar</button>
+      <!--Descarga de un archivo con un tag "a"-->
+      <a href="./HTML.rar">Descargar imagen</a>
     </section>
-    <img src="./mi_imagen.jpg" />
+    <img src="./mi_imagen.jpg" class="imagen p-bg-foto-on" />
+    <!--Tablas-->
+    <table>
+      <!--Head o cabezera de la tabla-->
+      <thead>
+        <!--Table row | fila de tabla-->
+        <tr>
+          <!--Table head | Encabezado de la tabla-->
+          <th>N</th>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <!--Cuerpo o body de la tabla-->
+      <tbody>
+        <tr>
+          <!--table data | celdas de la tabla-->
+          <td>1</td>
+          <td>Pedro</td>
+          <td>30</td>
+          <td>askdhjad@asdaskhd.com</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Maria</td>
+          <td>26</td>
+          <td>asdhakjsdhas@asdasd.com</td>
+        </tr>
+      </tbody>
+    </table>
     <aside>asdasdasdsad</aside>
+    <article>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora facere ullam error numquam in odit aliquam cum consequuntur excepturi pariatur, saepe hic autem? Reprehenderit eius maiores, unde sunt amet suscipit?
+    </article>
+    <progress max="100" value="75"></progress>
+    <!--listas desordenadas-->
+    <br>
+    <label>Lista de compras</label>
+    <ul><!--Unordered list-->
+      <li>Doritos</li><!--list item-->
+      <li>Café</li>
+      <li>Agua potable</li>
+    </ul>
+
+    <!--Listas ordenadas-->
+    <label>Lista de compras</label>
+    <ol><!--Ordered list-->
+      <li>Doritos</li><!--list item-->
+      <li>Café</li>
+      <li>Agua potable</li>
+    </ol>
+
+    <!--Listas de descripciones-->
+    <dl><!--Description list-->
+      <dt><!--term description-->
+        Programación
+      </dt>
+      <dd><!--Definición del término-->
+        El maravilloso arte de crear bugs
+      </dd>
+    </dl>
     <footer>asdkjahdhas</footer>
   </body>
 </html>
