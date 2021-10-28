@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form name="form1" id="form">
+      <fieldset>
+        <legend>Datos del usuario</legend>
+        <label>Nombre de usuario:</label>
+        <!--texto-->
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="mi_nombre"
+          required
+        /><br />
+        <!--password-->
+        <label
+          >Contraseña:
+          <input type="password" name="password" id="password" /></label
+        ><br />
+        <!--email-->
+        <label>Email: <input type="email" name="email" id="email" /></label
+        ><br />
+        <!--Fechas-->
+        <label
+          >Fecha de nacimiento:
+          <input type="date" name="fecha" id="fecha" /></label
+        ><br />
+        <!--select-->
+        <label>Ciudad:</label>
+        <select name="ciudad" id="ciudad">
+          <option value="" disabled>Seleccione</option>
+          <option value="A Coruña">A Coruña</option>
+          <option value="Sada" selected>Sada</option>
+          <option value="Betanzos">Betanzos</option></select
+        ><br />
+        <!--Numérico-->
+        <label>Edad:</label>
+        <input
+          type="number"
+          min="0"
+          max="100"
+          step="1"
+          name="edad"
+          id="edad"
+        /><br />
+        <!--Telefono-->
+        <label>Teléfono</label>
+        <input type="tel" name="telefono" id="telefono" /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Datos adicionales</legend>
+        <!--Radio buttons-->
+        <label>Nivel:</label>
+        <input type="radio" name="devLevel" id="front" />
+        <label>Frontend</label>
+        <input type="radio" name="devLevel" id="back" />
+        <label>Backend</label><br />
+        <!--Checkboxes-->
+        <label>Tecnologías:</label>
+        <input type="checkbox" name="tech" id="js" />
+        <label>Javascript</label>
+        <input type="checkbox" name="tech" id="php" />
+        <label>PHP</label>
+        <input type="checkbox" name="tech" id="python" />
+        <label>Python</label><br />
+
+        <!--color-->
+        <label>Color de tu marca</label>
+        <input type="color" value="#2A13A0" name="color" id="color" /><br />
+
+        <!--Search-->
+        <label>Búsqueda</label>
+        <input type="search" name="buscar" id="buscar" /><br />
+      </fieldset>
+
+      <!--botones-->
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Limpiar" />
+    </form>
+    <br />
+  </body>
+</html>
