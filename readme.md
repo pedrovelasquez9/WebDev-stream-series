@@ -19,16 +19,26 @@
 
 - Vscode extensions & setup
 - HTML5 | Hypertext markup language
+- Cache
 - CSS3
 - Debug and changes in the browser
-- Sass
 - Git:
   - Platforms
   - Commands
   - Gitflow
   - Best practices
   - Teamwork
+- Sass
 - SEO
+
+**Referencias:**
+
+- https://www.w3schools.com/html/default.asp
+- https://www.w3schools.com/css/css_syntax.asp
+- https://www.freecodecamp.org/
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+- https://2020.stateofjs.com/es-ES/technologies/front-end-frameworks/
+- https://animista.net/
 
 **Level 2**
 
@@ -57,9 +67,11 @@
 **Level 3**
 
 - NPM && package managers
-- React
-- Angular
-- Vue
+- React:
+  - hooks
+- Angular:
+  - Estructura, cli, integraciones
+- Vue:
 
 **Level 4**
 
