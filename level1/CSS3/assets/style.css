@@ -1,0 +1,37 @@
+/*"#" se usa como selector de id's y "." se usa como selector para clases*/
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #8321cf;
+  background-color: #000; /*hsla(274, 0%, 0%, 1);rgba(0, 0, 0, 0.1);*/
+  opacity: 1;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+p,
+label {
+  color: #000;
+  font-size: 12px;
+}
+
+.custom-title {
+  margin: 15px 0 0 0;
+  border: 1px solid;
+  padding: 10px 0 0 0;
+  width: auto;
+  height: auto;
+}
+
+.bolding {
+  font-weight: bold;
+}

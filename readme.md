@@ -20,7 +20,7 @@
 - Vscode extensions & setup
 - HTML5 | Hypertext markup language
 - Cache
-- CSS3
+- CSS3 (Cascade Style Sheet)
 - Debug and changes in the browser
 - Git:
   - Platforms
