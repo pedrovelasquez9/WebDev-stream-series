@@ -1,4 +1,11 @@
 /*"#" se usa como selector de id's y "." se usa como selector para clases*/
+
+/*@import url("https://fonts.googleapis.com/css?family=Acme&display=swap&effect=fire");*/
+@font-face {
+  font-family: "Acme";
+  src: url("./fonts/Acme/Acme-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,4 +41,26 @@ label {
 
 .bolding {
   font-weight: bold;
+}
+
+.nav-background {
+  background: #fff url("./images/wave.svg") no-repeat right top;
+  background-size: cover;
+}
+
+nav ul a li {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  width: 100px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  list-style: none;
+  font-family: "Acme", sans-serif;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
 }

@@ -39,6 +39,9 @@
 - https://developer.mozilla.org/en-US/docs/Web/HTML
 - https://2020.stateofjs.com/es-ES/technologies/front-end-frameworks/
 - https://animista.net/
+- https://fonts.google.com/
+- https://getwaves.io/
+- https://developers.google.com/fonts/docs/getting_started?hl=en#enabling_font_effects_beta
 
 **Level 2**
 
