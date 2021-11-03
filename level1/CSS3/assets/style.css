@@ -9,7 +9,6 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 h1,
@@ -44,21 +43,23 @@ label {
 }
 
 .nav-background {
-  background: #fff url("./images/wave.svg") no-repeat right top;
-  background-size: cover;
 }
 
-nav ul a li {
-  border: 1px solid #fff;
-  border-radius: 5px;
+.nav-list {
+  text-align: right;
+  position: absolute;
+}
+
+.nav-list a li {
   width: 100px;
   margin-bottom: 10px;
-  background-color: #fff;
   list-style: none;
   font-family: "Acme", sans-serif;
   cursor: pointer;
-  color: #000;
+  color: #fff;
   text-decoration: none;
+  font-weight: lighter;
+  display: inline;
 }
 
 a:link {

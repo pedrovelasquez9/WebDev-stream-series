@@ -42,6 +42,7 @@
 - https://fonts.google.com/
 - https://getwaves.io/
 - https://developers.google.com/fonts/docs/getting_started?hl=en#enabling_font_effects_beta
+- https://www.w3schools.com/cssref/pr_class_display.asp
 
 **Level 2**
 
