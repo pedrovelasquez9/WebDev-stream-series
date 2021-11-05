@@ -1,14 +1,26 @@
 /*"#" se usa como selector de id's y "." se usa como selector para clases*/
-
+/*background-color: #000; hsla(274, 0%, 0%, 1);rgba(0, 0, 0, 0.1);*/
+/*vw: viewport width | vh: viewport height*/
 /*@import url("https://fonts.googleapis.com/css?family=Acme&display=swap&effect=fire");*/
 @font-face {
   font-family: "Acme";
   src: url("./fonts/Acme/Acme-Regular.ttf");
 }
 
+@font-face {
+  font-family: "IBM-plex-regular";
+  src: url("./fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "IBM-plex-bold";
+  src: url("./fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "IBM-plex-regular";
 }
 
 h1,
@@ -17,17 +29,17 @@ h3,
 h4,
 h5,
 h6 {
-  color: #8321cf;
-  background-color: #000; /*hsla(274, 0%, 0%, 1);rgba(0, 0, 0, 0.1);*/
-  opacity: 1;
-  font-size: 15px;
-  font-weight: lighter;
+  font-family: "IBM-plex-bold";
 }
 
-p,
-label {
-  color: #000;
-  font-size: 12px;
+.header-background {
+  width: 100%;
+}
+
+.svg-blob {
+  position: absolute;
+  left: 0;
+  top: 100px;
 }
 
 .custom-title {
@@ -42,19 +54,16 @@ label {
   font-weight: bold;
 }
 
-.nav-background {
-}
-
 .nav-list {
   text-align: right;
   position: absolute;
+  right: 10px;
 }
 
 .nav-list a li {
   width: 100px;
   margin-bottom: 10px;
   list-style: none;
-  font-family: "Acme", sans-serif;
   cursor: pointer;
   color: #fff;
   text-decoration: none;
@@ -64,4 +73,10 @@ label {
 
 a:link {
   text-decoration: none;
+}
+
+.title-section > p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
