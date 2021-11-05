@@ -34,6 +34,8 @@ h6 {
 
 .header-background {
   width: 100%;
+  background-image: url("./images/Meteor.svg");
+  height: 50vh;
 }
 
 .svg-blob {
@@ -56,7 +58,7 @@ h6 {
 
 .nav-list {
   text-align: right;
-  position: absolute;
+  position: relative;
   right: 10px;
 }
 
@@ -79,4 +81,39 @@ a:link {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* flexbox */
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 484.5px;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.item1 {
+  display: flex;
+  width: 100px;
+  border-color: #fff;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  flex: 1 0 300px;
+  align-items: safe center;
+}
+
+.item2 {
+  display: flex;
+  width: 100px;
+  border-color: #fff;
+  height: 100px;
+  background-color: #000;
+  color: #fff;
+  flex: 3 0 300px;
+  align-items: safe center;
 }
