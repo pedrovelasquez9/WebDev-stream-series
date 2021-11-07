@@ -44,6 +44,7 @@
 - https://developers.google.com/fonts/docs/getting_started?hl=en#enabling_font_effects_beta
 - https://www.w3schools.com/cssref/pr_class_display.asp
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+- https://css-tricks.com/snippets/css/complete-guide-grid/
 
 **Utilidades**
 
