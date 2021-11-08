@@ -80,7 +80,8 @@
 
 **Level 3**
 
-- NPM && package managers
+- NPM && package managers (yarn)
+- webpack
 - React:
   - hooks
 - Angular:
