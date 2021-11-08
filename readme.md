@@ -28,8 +28,7 @@
   - Gitflow
   - Best practices
   - Teamwork
-- Sass
-- SEO
+  - Github cli
 
 **Referencias:**
 
@@ -45,6 +44,8 @@
 - https://www.w3schools.com/cssref/pr_class_display.asp
 - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 - https://css-tricks.com/snippets/css/complete-guide-grid/
+- https://css-tricks.com/snippets/css/
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
 
 **Utilidades**
 
@@ -105,4 +106,8 @@
 - Frontend deployment
 - SSL certs
 - Cloud platforms
+- Firebase
+- Supabase
 - Dedicated servers
+- Sass
+- SEO
