@@ -15,6 +15,11 @@
 - vscode icons
 - liveserver
 
+**GIT**
+
+- git graph
+- git lens
+
 **Level 1**
 
 - Vscode extensions & setup
@@ -32,6 +37,8 @@
 
 **Referencias:**
 
+**HTML y CSS**
+
 - https://www.w3schools.com/html/default.asp
 - https://www.w3schools.com/css/css_syntax.asp
 - https://www.freecodecamp.org/
@@ -46,6 +53,10 @@
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://css-tricks.com/snippets/css/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+
+**GIT**
+
+- https://github.com/github/gitignore
 
 **Utilidades**
 

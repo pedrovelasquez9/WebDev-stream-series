@@ -1,0 +1,12 @@
+- git init: inicializa un repositorio local
+- git status: nos muestra el estatus de los archivos de nuestro repositorio
+- git add: agrega los archivos que queremos que sean incluidos en el próximo commit
+- git rm --cached < archivo >: elimina los archivos que hemos incluido para el próximo commit
+- git commit -m "mensaje": confirma los cambios y añade el mensaje descriptivo de los mismos
+- git branch: muestra un listado de las ramas del repositorio
+- git checkout -b < rama >: crea una nueva rama y nos sitúa en ella directamente
+- git remote add < alias > < repo url >: agrega un repositorio remoto a nuestro repositorio local
+- git remote -v: muestra los repositorios remotos que tenemos
+- git clone < git url >: clona un repositorio remoto en nuestra máquina local
+- git push < remote > < rama >: sube los cambios al repositorio remoto
+- git pull < remote > < rama >: actualiza los cambios del repositorio remoto
