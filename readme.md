@@ -57,6 +57,8 @@
 **GIT**
 
 - https://github.com/github/gitignore
+- https://www.conventionalcommits.org/en/v1.0.0/
+- https://danielkummer.github.io/git-flow-cheatsheet/
 
 **Utilidades**
 
