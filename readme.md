@@ -70,6 +70,7 @@
 **Level 2**
 
 - Javascript
+  - How it works?
   - Variables && data types
   - Conditionals
   - Iterators
