@@ -20,6 +20,15 @@
 - git graph
 - git lens
 
+**JavaScript**
+
+- ESLint
+- JavaScript ES6 Code Snippets
+- JavaScript Booster
+- Nodejs snippets
+- Thunder Client
+- Visual Studio Intellicode
+
 **Level 1**
 
 - Vscode extensions & setup

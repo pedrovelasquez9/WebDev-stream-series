@@ -1,6 +1,5 @@
 //use strict es una forma de evitar errores de sintaxis, activa el "modo estricto" de JS
 "use strict";
-
 //console.log(), también puede usarse console.error, .info o .warn para mensajes en consola
 console.log("hola mundo");
 
