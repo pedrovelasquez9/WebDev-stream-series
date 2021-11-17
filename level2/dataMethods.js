@@ -96,9 +96,11 @@ let string = fecha.toString();
 //toTime() retorna la hora en formato number
 let time = fecha.getTime();
 //sumar dos fechas
-let sumarFechas = new Date(fecha.setDate(fecha.getDate() + 1)).toLocaleString();
+let sumarFechas = new Date(fecha.setDate(fecha.getDate() + 1));
+//comparar fechas
+let compararFechas = new Date().getTime() < sumarFechas.getTime();
 
-console.log(sumarFechas);
+console.log(compararFechas);
 
 //Arrays
 //map (funcion) retorna un array a partir de operaciones sobre los items de otro array
