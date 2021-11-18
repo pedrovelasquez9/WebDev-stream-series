@@ -100,9 +100,95 @@ let sumarFechas = new Date(fecha.setDate(fecha.getDate() + 1));
 //comparar fechas
 let compararFechas = new Date().getTime() < sumarFechas.getTime();
 
-console.log(compararFechas);
-
 //Arrays
+//Ejemplo de un array
+let miArray = [
+  "cadena",
+  10,
+  true,
+  {
+    nombre: "Pedro",
+    apellido: "Plasencia",
+  },
+];
+
+//Declara un array vacío
+let arrayVacio = [];
+// Si lo instanciamos con un solo parámetro en el constructor, creará un array con x posiciones vacías con valores undefined
+let instanciaArray = new Array();
+//Obtener longitud del array
+let longitudArray = miArray.length;
+//Obtener valor de la última posición del array
+let valorUltimaPos = miArray[miArray.length - 1];
+//Agregar valores al array
+miArray.push("nuevo valor");
+//Validar si es un array
+let isArray = Array.isArray(miArray);
+// array pop elimina el último elemento del array
+let popArray = miArray.pop();
+// array shift elimina el primer elemento del array
+let shiftArray = miArray.shift();
+// array unshift agrega un elemento al inicio del array
+let unshiftArray = miArray.unshift("valor unshifted");
+//delete array[posicion] elimina el elemento de la posición indicada
+delete miArray[2];
+//array.splice(posicion, cantidad, valor) elimina y/o agrega elementos al array
+let spliceArray = miArray.splice(2, 1);
+//array.slice(posicion, cantidad) retorna una copia del array desde la posición indicada
+let sliceArray = miArray.slice(0, 1);
+//concatenar arreglos con el método concat()
+let miArray2 = ["nuevo array"];
+let concatArray = miArray.concat(miArray2);
+//spread operator
+let spreadArray = [...miArray, ...miArray2, "asdasd"];
+//transformar array a string
+let arrayToString = miArray.toString();
+
+console.log(miArray);
+//Iteraciones sobre arreglos
+//ciclo for
+for (let i = 0; i < miArray.length; i++) {
+  if (i === 1) {
+    console.log(`posicion ${i}`);
+  }
+  if (typeof miArray[i] === "object") {
+    console.log(JSON.stringify(miArray[i]));
+  }
+}
+
+//foreach
+let arrayForEach = [
+  { nombre: "Pedro", edad: 31, direccion: { calle: "Mi casa", numero: 2 } },
+  { nombre: "Maria", edad: 27, direccion: { calle: "Mi casa", numero: 2 } },
+  { nombre: "Juan", edad: 45, direccion: { calle: "Mi casa", numero: 2 } },
+];
+arrayForEach.forEach((item, index) => {
+  //&& = "and"
+  //|| = "or"
+  if (item.nombre === "Pedro" && item.edad <= 31)
+    console.log(
+      `Hola ${item.nombre}! Bienvenido a programación en español! He visto que vives en ${item.direccion.calle}`
+    );
+});
+
+//map - retorna un nuevo array con los resultados de la función
+let arrayMap = arrayForEach.map((item, index) => {
+  return { nombre: item.nombre, edad: item.edad };
+});
+
+//reduce - retorna un valor
+let totalEdad = 0;
+arrayReduce = arrayForEach.reduce((total, item, index) => {
+  console.log(`${JSON.stringify(total)} ${JSON.stringify(item)}`);
+  return (totalEdad += item.edad);
+});
+
+//filter - retorna un nuevo array con los elementos que cumplan la condición
+let arrayFilter = arrayForEach.filter((item, index) => {
+  return item.edad >= 30;
+});
+console.log(arrayFilter);
+
 //map (funcion) retorna un array a partir de operaciones sobre los items de otro array
 let arreglo = ["a", "b", "c"];
 let arreglo2 = arreglo.map((item) => `${item} hola`);
@@ -110,5 +196,3 @@ let arreglo2 = arreglo.map((item) => `${item} hola`);
 let slicedArray = arreglo.slice(0, 1);
 //Indexof (buscar, inicio) retorna la posición de la primera coincidencia
 let indexArray = arreglo.indexOf("a");
-
-console.log(`hola`);
