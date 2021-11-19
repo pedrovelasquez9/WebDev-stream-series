@@ -187,7 +187,6 @@ arrayReduce = arrayForEach.reduce((total, item, index) => {
 let arrayFilter = arrayForEach.filter((item, index) => {
   return item.edad >= 30;
 });
-console.log(arrayFilter);
 
 //map (funcion) retorna un array a partir de operaciones sobre los items de otro array
 let arreglo = ["a", "b", "c"];
@@ -196,3 +195,80 @@ let arreglo2 = arreglo.map((item) => `${item} hola`);
 let slicedArray = arreglo.slice(0, 1);
 //Indexof (buscar, inicio) retorna la posición de la primera coincidencia
 let indexArray = arreglo.indexOf("a");
+
+//every (funcion) retorna true si todos los elementos cumplen la condición
+let everyArray = arreglo.every((item) => {
+  return typeof item === "string";
+});
+
+//some (funcion) retorna true si al menos un elemento cumple la condición
+let someArray = arreglo.some((item) => {
+  return item === "a";
+});
+
+//indexOf (buscar, inicio) retorna la posición de la primera coincidencia
+let indexOfArray = arreglo.indexOf("a");
+
+//includes (buscar) retorna true si el elemento está en el array
+let includesArray = arreglo.includes("a");
+console.log(includesArray);
+
+//find (funcion) retorna el primer elemento que cumpla la condición
+let findArray = arreglo.find((item) => {
+  return item.indexOf("a") !== -1;
+});
+
+//findIndex (funcion) retorna la posición del primer elemento que cumpla la condición
+let findIndexArray = arreglo.findIndex((item) => {
+  return item.indexOf("a") !== -1;
+});
+
+//keys (objeto) retorna un array con las claves del objeto
+let llaves = arreglo.keys();
+console.log(llaves);
+
+for (let alias of llaves) {
+  console.log(alias);
+}
+
+//Objetos
+let usuarios = {
+  nombre: "Pedro",
+  apellido: "Plasencia",
+  edad: 31,
+  direccion: {
+    calle: "Calle 1",
+    casa: 123131231,
+    pais: "España",
+  },
+};
+
+for (let x in usuarios) {
+  console.log(x);
+  console.log(usuarios[x]);
+  if (typeof usuarios[x] === "object") {
+    for (let y in usuarios[x]) {
+      console.log(y);
+      console.log(usuarios[x][y]);
+    }
+  }
+}
+
+const recursiveObj = (obj) => {
+  for (let x in obj) {
+    console.log(x);
+    console.log(obj[x]);
+    if (typeof obj[x] === "object") {
+      recursiveObj(obj[x]);
+    }
+  }
+};
+
+recursiveObj(usuarios);
+
+let nombre = usuarios.nombre;
+//Estándar de constantes: mayúsculas + snakecase
+const FECHA_DE_HOY = new Date();
+
+//Estándar de variables: minúsculas + camelcase
+let fechaDeHoy = new Date();

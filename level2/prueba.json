@@ -1,0 +1,10 @@
+{
+  "nombre": "Pedro",
+  "apellido": "Plasencia",
+  "edad": 31,
+  "direccion": {
+    "calle": "Calle 1",
+    "casa": 123131231,
+    "pais": "España"
+  }
+}

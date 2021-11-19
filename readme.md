@@ -75,6 +75,7 @@
 - https://mycolor.space/
 - https://neumorphism.io/#e8e8e8
 - https://bgjar.com/
+- https://jsoneditoronline.org/
 
 **JavaScript**
 
@@ -98,7 +99,7 @@
     - Async
   - Single line features
   - ES6 && ES2021
-  - POO
+  - POO && comparación con Java
   - Functional programming
   - Reactive programming
   - Apis
@@ -108,7 +109,8 @@
 **Level 3**
 
 - NPM && package managers (yarn)
-- webpack
+- webpack && snowpack
+- Tomar en cuenta SEO
 - React:
   - hooks
 - Angular:
