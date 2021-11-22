@@ -10,7 +10,6 @@ numero2 = 2;
 console.log(numero, numero2);
 
 //pasar valores por referencia
-
 const modificarUser = (user) => {
   //Modifico una propiedad de la primera referencia
   user.edad = 40;

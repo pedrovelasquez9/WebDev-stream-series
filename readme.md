@@ -28,6 +28,8 @@
 - Nodejs snippets
 - Thunder Client
 - Visual Studio Intellicode
+- Quokka
+- Import cost
 
 **Level 1**
 
