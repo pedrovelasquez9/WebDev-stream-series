@@ -28,7 +28,6 @@
 - Nodejs snippets
 - Thunder Client
 - Visual Studio Intellicode
-- Quokka
 - Import cost
 
 **Level 1**
@@ -90,10 +89,10 @@
   - Variables && data types
   - Conditionals
   - Iterators
+  - JS data types methods
   - Arrays and JSON
   - DOM management
   - Forms
-  - JS data types methods
   - Baseline methods and language theory:
     - prototype
     - this
