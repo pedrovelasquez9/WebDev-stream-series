@@ -94,6 +94,7 @@
   - DOM management
   - Forms
   - Baseline methods and language theory:
+    - hoisting
     - prototype
     - this
     - scopes

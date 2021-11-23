@@ -11,3 +11,7 @@
   - AJAX: api para realizar peticiones asíncronas
 - Callback queue: cola de funciones que se ejecutan tras llamadas asíncronas
 - Event loop: ciclo de eventos que se ejecutan tras las llamadas asíncronas
+
+### Conceptos del lenguaje
+
+- Hoisting: Comportamiento por defecto de JS que mueve declaraciones de variables globales y funciones al inicio de los scripts. (Solo mueve declaraciones, no inicializaciones)
