@@ -77,6 +77,9 @@
 - https://neumorphism.io/#e8e8e8
 - https://bgjar.com/
 - https://jsoneditoronline.org/
+- https://replit.com/
+- https://overapi.com/
+- https://ide.onelang.io/
 
 **JavaScript**
 
@@ -93,6 +96,7 @@
   - Arrays and JSON
   - DOM management
   - Forms
+  - LocalStorage and SessionStorage
   - Baseline methods and language theory:
     - hoisting
     - prototype

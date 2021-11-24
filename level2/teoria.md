@@ -15,3 +15,4 @@
 ### Conceptos del lenguaje
 
 - Hoisting: Comportamiento por defecto de JS que mueve declaraciones de variables globales y funciones al inicio de los scripts. (Solo mueve declaraciones, no inicializaciones)
+- DOM: Document Object Model
