@@ -1,0 +1,30 @@
+.global-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 450px;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container img {
+  width: 220px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.4s;
+  margin-bottom: 10px;
+}
+
+.container img:hover {
+  transform: rotate(10deg) scale(1.1);
+  border-radius: 40px;
+  opacity: 1;
+  z-index: 1;
+  box-shadow: 0 0 20px #000;
+}
