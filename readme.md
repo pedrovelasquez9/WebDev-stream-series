@@ -84,6 +84,7 @@
 **JavaScript**
 
 - https://momentjs.com/
+- https://www.w3schools.com/jsref/dom_obj_event.asp
 
 **Level 2**
 
@@ -95,8 +96,8 @@
   - JS data types methods
   - Arrays and JSON
   - DOM management
-  - Forms
   - LocalStorage and SessionStorage
+  - Forms
   - Baseline methods and language theory:
     - hoisting
     - prototype
