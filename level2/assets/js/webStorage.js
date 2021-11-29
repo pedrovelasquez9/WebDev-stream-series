@@ -29,9 +29,9 @@ const createUserElement = async () => {
 createUserElement().then((e) => document.body.appendChild(e));
 
 //Borramos una propiedad del localstorage
-localStorage.removeItem("usuario");
+//localStorage.removeItem("usuario");
 //Limpiamos todo el localstorage
-localStorage.clear();
+// localStorage.clear();
 
 //sessionStorage
 //Guardamos un objeto en sessionStorage
@@ -41,7 +41,7 @@ sessionStorage.setItem(
 );
 
 //Obtenemos un objeto desde sessionStorage
-let userData = JSON.parse(sessionStorage.getItem("dataUser"));
+let userDataSession = JSON.parse(sessionStorage.getItem("dataUser"));
 
 //Borramos una propiedad del sessionStorage
 sessionStorage.removeItem("dataUser");

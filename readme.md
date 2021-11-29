@@ -85,6 +85,8 @@
 
 - https://momentjs.com/
 - https://www.w3schools.com/jsref/dom_obj_event.asp
+- https://javascriptweekly.com/
+- https://www.codenews.app/
 
 **Level 2**
 

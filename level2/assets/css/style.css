@@ -28,3 +28,24 @@
   z-index: 1;
   box-shadow: 0 0 20px #000;
 }
+
+#input_texto:empty {
+  border-color: blue;
+}
+
+.miForm {
+  margin-bottom: 45px;
+}
+
+.error {
+  border-color: red;
+}
+
+.oculto {
+  display: none;
+}
+
+.errorLabel {
+  color: red;
+  font-weight: bold;
+}

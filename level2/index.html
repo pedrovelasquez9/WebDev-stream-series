@@ -18,6 +18,12 @@
     <script src="assets/js/sets.js"></script>
     <script src="assets/js/errorHandling.js"></script>
     <script src="assets/js/hoisting.js"></script>-->
+    <script>
+      window.addEventListener("storage", () => {
+        console.log("GETS FIRED");
+        console.log(JSON.parse(window.localStorage.getItem("usuario")));
+      });
+    </script>
   </head>
   <body>
     <h1>Titulo</h1>
@@ -27,6 +33,13 @@
       quo, sit nulla aliquid ut a praesentium perspiciatis doloribus illum!
     </p>
     <button class="btn">Hola</button>
+    <form id="miForm" class="miForm">
+      <input type="text" name="input_texto" id="input_texto" />
+      <span id="errorLabel" class="errorLabel oculto"
+        >Por favor rellena este campo</span
+      >
+      <input type="submit" value="Enviar" />
+    </form>
     <section class="global-container">
       <section class="container">
         <img
@@ -47,8 +60,8 @@
         />
       </section>
     </section>
-    <!-- <script src="assets/js/noctis.js"></script>
-    <script src="assets/js/webStorage.js"></script> -->
-    <script src="assets/js/urlProyectos.js"></script>
+    <script src="assets/js/noctis.js"></script>
+    <script src="assets/js/webStorage.js"></script>
+    <script src="assets/js/dom.js"></script>
   </body>
 </html>
