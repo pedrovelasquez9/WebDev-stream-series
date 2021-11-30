@@ -100,6 +100,7 @@
   - DOM management
   - LocalStorage and SessionStorage
   - Forms
+  - BOM
   - Baseline methods and language theory:
     - hoisting
     - prototype
@@ -111,8 +112,12 @@
   - POO && comparación con Java
   - Functional programming
   - Reactive programming
-  - Apis
-  - fetch
+  - Apis:
+    - Web
+    - Storage
+    - Fetch
+    - Geolocation
+    - History
   - Libraries and frameworks
 
 **Level 3**
