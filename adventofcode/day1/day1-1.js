@@ -4,9 +4,10 @@ const lookForInput = async () => {
   const input = text.split("\n").map((x) => parseInt(x));
   console.log(input);
   const result = solvePart1(input);
+  console.log(`resultado parte 1 ${result}`);
   const suma = createSumWindows(input);
   const result2 = solvePart1(suma);
-  console.log(result2);
+  console.log(`resultado parte 2 ${result2}`);
 };
 
 const createSumWindows = (input) => {
