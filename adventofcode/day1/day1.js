@@ -2,7 +2,6 @@ const lookForInput = async () => {
   let response = await fetch("./input.txt");
   let text = await response.text();
   const input = text.split("\n").map((x) => parseInt(x));
-  console.log(input);
   const result = solvePart1(input);
   console.log(`resultado parte 1 ${result}`);
   const suma = createSumWindows(input);
