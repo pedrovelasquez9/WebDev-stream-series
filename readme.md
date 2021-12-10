@@ -87,6 +87,7 @@
 - https://www.w3schools.com/jsref/dom_obj_event.asp
 - https://javascriptweekly.com/
 - https://www.codenews.app/
+- https://www.javascript.christmas/2020
 
 **Level 2**
 
