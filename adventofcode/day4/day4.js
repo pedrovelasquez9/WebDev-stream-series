@@ -24,19 +24,32 @@ const readInput = async () => {
   return { values, matrix };
 };
 
+//PARTE 1
 let input = readInput().then((res) => {
   //iteraciones
-  let iterationResult = mainIteration(res);
-  let crapResult = calculateBingoCrap(
-    iterationResult.matrix,
-    iterationResult.value,
-    iterationResult.table
+  let iterationResult1 = mainIteration(res, true);
+  let crapResult1 = calculateBingoCrap(
+    iterationResult1.matrix,
+    iterationResult1.value,
+    iterationResult1.table
   );
-  console.log(crapResult);
+  console.log(`resultado primera parte: ${crapResult1}`);
+});
+
+//PARTE 2
+let input2 = readInput().then((res) => {
+  //iteraciones
+  let iterationResult2 = mainIteration(res);
+  let crapResult2 = calculateBingoCrap(
+    iterationResult2.matrix,
+    iterationResult2.value,
+    iterationResult2.table
+  );
+  console.log(`resultado segunda parte: ${crapResult2}`);
 });
 
 const calculateBingoCrap = (matrix, val, x) => {
-  console.log(matrix, x);
+  console.log(matrix, val, x);
   let flatArrayVal = matrix[x]
     .flat()
     .filter((item) => !isNaN(item))
@@ -44,10 +57,15 @@ const calculateBingoCrap = (matrix, val, x) => {
   return flatArrayVal * val;
 };
 
-const mainIteration = (res) => {
+const mainIteration = (res, solution) => {
   console.log(res.matrix);
+  validatedTable = [];
+  let part2 = {};
   for (let i = 0; i < res.values.length; i++) {
     for (let x = 0; x < res.matrix.length; x++) {
+      if (validatedTable.includes(x)) {
+        continue;
+      }
       for (let y = 0; y < res.matrix[x].length; y++) {
         for (let z = 0; z < res.matrix[x][y].length; z++) {
           res.matrix[x][y][z] =
@@ -57,11 +75,16 @@ const mainIteration = (res) => {
           validateRows(res.matrix, x, y) ||
           validateColumns(res.matrix, x, y)
         ) {
-          return { matrix: res.matrix, value: res.values[i], table: x };
+          validatedTable.push(x);
+          val = res.values[i];
+          part2 = { matrix: res.matrix, value: res.values[i], table: x };
+          if (solution)
+            return { matrix: res.matrix, value: res.values[i], table: x };
         }
       }
     }
   }
+  return part2;
 };
 
 const validateRows = (matrix, x, y) => {
