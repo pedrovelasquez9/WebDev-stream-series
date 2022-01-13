@@ -28,3 +28,10 @@ console.log(400 == "400");
 
 //triple comparacion (comparacion estricta) (compara valor y tipo de dato)
 console.log(400 === "400");
+
+let nombre = "Pedro";
+let apellido = "Plasencia";
+let cadena = "Hola, mi nombre es "+ nombre + " " + apellido +", bienvenido a Programacion en español";
+//Template strings
+cadena = `Hola, mi nombre ${nombre} ${apellido}, bienvenido a programacion en español`;
+console.log(cadena);
