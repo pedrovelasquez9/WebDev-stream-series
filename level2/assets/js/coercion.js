@@ -17,5 +17,14 @@ console.log(miVariable);
 miVariable = false + 1;
 console.log(miVariable);
 
+//typeof, me muestra el tipo de valor almacenado en la variable
+console.log(typeof miVariable);
+
+console.log(typeof []);
+console.log(typeof {});
+
+//Doble comparacion (comparacion simple o debil) (compara el valor)
 console.log(400 == "400");
+
+//triple comparacion (comparacion estricta) (compara valor y tipo de dato)
 console.log(400 === "400");
