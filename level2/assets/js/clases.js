@@ -1,3 +1,5 @@
+//Clase en JS
+
 class Automovil {
     constructor(color, placa, velocidad) {
         this.color = color;
@@ -17,6 +19,8 @@ class Automovil {
         return `La velocidad del coche es ${this.velocidad}kmh`;
     }
 }
+
+//Herencia de clase
 
 class Peugeot extends Automovil{
     
