@@ -88,6 +88,7 @@
 - https://javascriptweekly.com/
 - https://www.codenews.app/
 - https://www.javascript.christmas/2020
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let
 
 **Level 2**
 
@@ -105,6 +106,7 @@
   - Baseline methods and language theory:
     - hoisting
     - prototype
+    - Coercion
     - this
     - scopes
     - Async

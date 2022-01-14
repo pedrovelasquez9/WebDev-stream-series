@@ -17,6 +17,36 @@ let num3 = 25,
 //Constantes: almacenan valores que no deberían/pueden cambiarse
 const num5 = 91;
 
+//Scope de variables
+function variableScope() {
+  let boolValue = true;
+  var x = 5;
+  if(boolValue){
+    var x = 10;
+    console.log(x);
+  }
+  console.log(x);
+}
+
+function variableLetScope() {
+  let boolValue = true;
+  let x = 5;
+  if(boolValue){
+    let x = 10;
+    console.log(x);
+  }
+  console.log(x);
+}
+
+var nombre = "Pedro";
+let apellido = "Plasencia";
+
+console.log(this.nombre);
+console.log(this.apellido);
+
+variableScope();
+variableLetScope();
+
 //Arreglos
 let miArreglo = [1, 2, "test"];
 // console.log(miArreglo[0]);
