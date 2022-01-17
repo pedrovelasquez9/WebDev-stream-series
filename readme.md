@@ -11,7 +11,8 @@
 - HTML boilerplate
 - HTML Snippets
 - Path intellisense
-- Prettier - code formatter
+- Prettier 
+- code formatter 
 - vscode icons
 - liveserver
 
@@ -29,6 +30,7 @@
 - Thunder Client
 - Visual Studio Intellicode
 - Import cost
+- JS Runner
 
 **Level 1**
 
@@ -89,16 +91,18 @@
 - https://www.codenews.app/
 - https://www.javascript.christmas/2020
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let
+- https://es.acervolima.com/cuales-son-las-funciones-de-fabrica-en-javascript/
+- https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono 
+- https://www.youtube.com/watch?v=ZIToNxQof2I&t=6s&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
 
 **Level 2**
 
 - Javascript
   - How it works?
   - Variables && data types
-  - Conditionals
-  - Iterators
+  - Arrays and JSON 
   - JS data types methods
-  - Arrays and JSON
+  - Conditionals and Iterators
   - DOM management
   - LocalStorage and SessionStorage
   - Forms
@@ -108,17 +112,19 @@
     - prototype
     - Coercion
     - this
+    - POO && comparación con Java
+    - Error handling
+    - References
     - scopes
-    - Async
+    - Async 
+    - Fetch 
   - Single line features
   - ES6 && ES2021
-  - POO && comparación con Java
   - Functional programming
   - Reactive programming
   - Apis:
     - Web
     - Storage
-    - Fetch
     - Geolocation
     - History
   - Libraries and frameworks
