@@ -101,7 +101,7 @@
   - How it works?
   - Variables && data types
   - Arrays and JSON 
-  - JS data types methods
+  - JS data types methods 
   - Conditionals and Iterators
   - DOM management
   - LocalStorage and SessionStorage
