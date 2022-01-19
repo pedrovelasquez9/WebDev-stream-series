@@ -44,7 +44,7 @@ const arr2 = [4,5,6];
 const arr3 = [...arr1, ...arr2];
 console.log(arr3);
 
-//
+//Rest params
 const funcionConParamArray = (param1, param2, ...params) => {
     console.log(param1);
     console.log(param2);
@@ -60,3 +60,66 @@ function prueba(arg) {
 
 funcionConParamArray(1, 2, 3, 4, "hola", "mundo");
 prueba("test");
+
+//Verificar si una palabra es un palindromo
+const esPalindromo = texto => texto.toLowerCase().split("").reverse().join("") === texto.toLowerCase()
+console.log(`Es palindromo: ${esPalindromo("Ana")}`);
+
+//A partir del array de datos de pilotos, obtener el total (sumatoria) de score de los pilotos que sean usuarios de la fuerza usando map, reduce y filter
+//Map, reduce, filter
+let pilotos = [
+    {
+      id: 5,
+      name: "Luke Skywalker",
+      pilotingScore: 98,
+      shootingScore: 56,
+      isForceUser: true,
+    },
+    {
+      id: 82,
+      name: "Sabine Wren",
+      pilotingScore: 73,
+      shootingScore: 99,
+      isForceUser: false,
+    },
+    {
+      id: 22,
+      name: "Zeb Orellios",
+      pilotingScore: 20,
+      shootingScore: 59,
+      isForceUser: false,
+    },
+    {
+      id: 15,
+      name: "Ezra Bridger",
+      pilotingScore: 43,
+      shootingScore: 67,
+      isForceUser: true,
+    },
+    {
+      id: 11,
+      name: "Caleb Dume",
+      pilotingScore: 71,
+      shootingScore: 85,
+      isForceUser: true,
+    },
+  ];
+
+  const usuariosDeLaFuerza = pilotos.filter(pilot => pilot.isForceUser);
+  console.log(usuariosDeLaFuerza);
+  const sumatoriaDeScores = usuariosDeLaFuerza.map(jedi => jedi.pilotingScore + jedi.shootingScore);
+  console.log(sumatoriaDeScores);
+  const totalScores = sumatoriaDeScores.reduce((prev, actual) => prev + actual);
+  console.log(totalScores);
+
+  //Encadenando los mètodos
+  const scoreTotalDeJedis = pilotos
+    .filter(pilot => pilot.isForceUser)
+    .map(jedi => jedi.pilotingScore + jedi.shootingScore)
+    .reduce((prev, actual) => prev + actual);
+
+    console.log(scoreTotalDeJedis);
+
+//Obtener los ùltimos 7 dìas a partir de hoy
+const lastWeek = [...Array(7).keys()].map(d => new Date(Date.now() - 86400000 * d))
+console.log(lastWeek);

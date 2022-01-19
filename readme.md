@@ -95,6 +95,7 @@
 - https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono 
 - https://www.youtube.com/watch?v=ZIToNxQof2I&t=6s&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
 - https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch
+- https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
 
 **Level 2**
 
