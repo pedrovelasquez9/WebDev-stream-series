@@ -96,6 +96,7 @@
 - https://www.youtube.com/watch?v=ZIToNxQof2I&t=6s&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
 - https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch
 - https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
+- https://www.w3schools.com/js/js_es6.asp#mark_symbol
 
 **Level 2**
 
