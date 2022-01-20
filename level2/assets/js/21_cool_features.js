@@ -66,6 +66,45 @@ const getDevice = (type, year, so) => {
 
 console.log(getDevice("laptop", "2022", "ElementaryOS"));
 
+//tipo Symbol
+const USUARIO = {
+    nombre: "Pedro",
+    apellido: "Plasencia",
+    edad: 31
+};
+
+let id = Symbol('id');
+USUARIO[id] = 123456;
+console.log(USUARIO[id]);
+console.log(USUARIO.id);
+console.log(Symbol('id') === Symbol('id'));
+
+//Rest params
+const restParamsFunction = (...params) => {
+    console.log(params);
+};
+
+//includes
+let miCadena = "Hola desde Programacion en español";
+console.log("includes => ", miCadena.toLowerCase().includes("programacion"));
+//startsWith
+console.log("starts with => ", miCadena.toLowerCase().startsWith("programacion"));
+//endsWith
+console.log("ends with => ", miCadena.toLowerCase().endsWith("programacion"));
+
+//isInteger
+console.log("es entero >> ", Number.isInteger(1));
+console.log("es entero >> ", Number.isInteger(1.1));
+
+restParamsFunction(1, 2, 3, "hola");
+
+//isNaN
+console.log("is NaN >>> ", isNaN("hola"));
+
+//isFinite
+console.log("is Finite >>> ", isFinite(10/1));
+console.log("is Finite >>> ", isFinite(10/0));
+
 //ES2021
 //Operadores de asignacion logica
 //OR: asigna un valor cuando la variable retorna un falsy
