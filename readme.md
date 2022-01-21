@@ -124,6 +124,7 @@
     - Fetch 
   - Single line features
   - ES6 && ES2021
+  - Recursividad
   - Functional programming
   - Reactive programming
   - Apis:
