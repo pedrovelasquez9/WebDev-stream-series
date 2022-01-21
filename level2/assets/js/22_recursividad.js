@@ -35,5 +35,3 @@ const myApiCall = async () => {
    },30000);
    
 };
-
-console.log(myApiCall());
