@@ -98,3 +98,29 @@ dibujar();
  * API de audio/video
  *
  */
+//Iniciamos el contexto de audio
+const audioContext = new AudioContext();
+// Obtenemos el elemento del DOM
+const audioElement = document.getElementById("audio-tag");
+
+// Le pasamos el elemento al context
+const track = audioContext.createMediaElementSource(audioElement);
+track.connect(audioContext.destination);
+
+const playBtn = document.getElementById("play-btn");
+
+playBtn.addEventListener("click", () => {
+  // check if context is in suspended state (autoplay policy)
+  if (audioContext.state === "suspended") {
+    audioContext.resume();
+  }
+
+  // play or pause track depending on state
+  if (playBtn.dataset.playing === "false") {
+    audioElement.play();
+    playBtn.dataset.playing = "true";
+  } else if (playBtn.dataset.playing === "true") {
+    audioElement.pause();
+    playBtn.dataset.playing = "false";
+  }
+});
