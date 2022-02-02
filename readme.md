@@ -11,8 +11,8 @@
 - HTML boilerplate
 - HTML Snippets
 - Path intellisense
-- Prettier 
-- code formatter 
+- Prettier
+- code formatter
 - vscode icons
 - liveserver
 
@@ -93,19 +93,21 @@
 - https://www.javascript.christmas/2020
 - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/let
 - https://es.acervolima.com/cuales-son-las-funciones-de-fabrica-en-javascript/
-- https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono 
+- https://lemoncode.net/lemoncode-blog/2018/1/29/javascript-asincrono
 - https://www.youtube.com/watch?v=ZIToNxQof2I&t=6s&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
 - https://developer.mozilla.org/es/docs/Web/API/Fetch_API/Using_Fetch
 - https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
 - https://www.w3schools.com/js/js_es6.asp#mark_symbol
+- https://developer.mozilla.org/es/docs/Web/API/Geolocation_API
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API
 
 **Level 2**
 
 - Javascript
   - How it works?
   - Variables && data types
-  - Arrays and JSON 
-  - JS data types methods 
+  - Arrays and JSON
+  - JS data types methods
   - Conditionals and Iterators
   - DOM management
   - LocalStorage and SessionStorage
@@ -120,8 +122,8 @@
     - Error handling
     - References
     - scopes
-    - Async 
-    - Fetch 
+    - Async
+    - Fetch
   - Single line features
   - ES6 && ES2021
   - Recursividad
