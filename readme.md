@@ -100,6 +100,8 @@
 - https://www.w3schools.com/js/js_es6.asp#mark_symbol
 - https://developer.mozilla.org/es/docs/Web/API/Geolocation_API
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/function*
+- https://developer.mozilla.org/es/docs/Web/JavaScript/Closures
 
 **Level 2**
 
@@ -134,6 +136,8 @@
     - Storage
     - Geolocation
     - History
+  - Closures
+  - Generator functions
   - Libraries and frameworks
 
 **Level 3**
