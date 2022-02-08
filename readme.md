@@ -65,6 +65,7 @@
 - https://css-tricks.com/snippets/css/complete-guide-grid/
 - https://css-tricks.com/snippets/css/
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties
+- https://css-tricks.com/linearly-scale-font-size-with-css-clamp-based-on-the-viewport/
 
 **GIT**
 
